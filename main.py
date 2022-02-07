@@ -3,6 +3,10 @@ lim = int(input("How many images you want? "))
 
 from bing_image_downloader import downloader  #importing the library
 
+
+
+
+
 query_string = user
 
 downloader.download(query_string, limit=lim,
